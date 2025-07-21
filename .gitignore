@@ -1,0 +1,25 @@
+# Build output directories
+/build/
+*.elf
+*.bin
+*.map
+
+# ESP-IDF specific files
+sdkconfig
+sdkconfig.old
+partition_table.csv
+*.pyc
+*.pyo
+__pycache__/
+
+# Arduino component files
+managed_components/
+components/arduino/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+
+# MacOS specific files
+.DS_Store
